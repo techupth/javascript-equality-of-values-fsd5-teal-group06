@@ -1,10 +1,10 @@
 // Exercise #1: Strict and Same
 // Start commenting here
 Object.is(10, 20); //False
-Object.is(0, -0); //True
+Object.is(0, -0); //Fasle
 Object.is(NaN, 100); //False
 Object.is("one", "two"); //True
-Object.is({ name: "John", age: 30 }, { name: "John", age: 30 }); //True
+Object.is({ name: "John", age: 30 }, { name: "John", age: 30 }); //False
 Object.is(null, undefined); //False
 
 10 === 20; //False
